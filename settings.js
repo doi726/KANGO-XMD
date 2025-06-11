@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~V20D1LjK#c35WVkBJ-RythxBzgZmq8fyNt303ukrqUlQQYY3QpwI' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~FvdxxBYS#QpWbjSgO62S_0dpcCnItq-0GAUjUX_Fy4pRyIOUt0ws' 
 //Enter your KANGO-XMD session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -24,7 +24,7 @@ global.botname = process.env.BOT_NAME || '6283171860048'
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '6283171860048' 
+global.ownernumber = process.env.OWNER_NUMBER || '6283161113153' 
 
 //--------------------[ SUDO ]--------------------------//
 
@@ -34,15 +34,15 @@ global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || '6289620611161' 
+global.ownername = process.env.OWNER_NAME || 'https://whatsapp.com/channel/0029Vat664LEVccJFnRjC221' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "6289620611161" 
+global.packname = process.env.STICKER_PACK_NAME || "6283171860048" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "6289620611161" 
+global.author = process.env.STICKER_AUTHOR_NAME || "6283171860048" 
 
 //----------------[ GITHUB DATABASE ]-----------------//
 
@@ -51,17 +51,17 @@ global.dbToken = process.env.GITHUB_TOKEN || "";
 
 //-----------------[ CONTEXT LINK ]--------------------//
 
-global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
+global.plink = process.env.PLINK || "https://whatsapp.com/channel/0029Vat664LEVccJFnRjC221"
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©KANGO-XMD"
+global.wm = process.env.GL_WM || "6283171860048"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
   done: '*Done*', 
-  success: '©kango-xmd', 
+  success: '6283171860048', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
